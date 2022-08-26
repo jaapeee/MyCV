@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.home{
+	min-height: 100vh;
+	width:  100%;
+	background-image: url(../images/userpagebg1.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.header{
+	position: sticky;
+  	top: 15px;
+  	z-index: 999;
+  	background-color: rgba(0, 0, 0, 0);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img{
+	width: 150px;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 50px;
+	position: relative;
+}
+.nav-links ul li button{
+	color:  yellow;
+	text-decoration: none;
+	font-size: 15px;
+}
+.nav-links ul li button{
+	border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn2{
+	background-color: maroon;
+  border: none;
+  color: yellow;
+  padding: 5px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: 20px;
+  height: 40px;
+  width: 65%;
+}
+.btn2 {
+  transition-duration: 0.4s;
+}
+
+.btn2:hover {
+  background-color: #1F0001;
+  color: yellow;
+}
+.btn3{
+	background-color: maroon;
+  border: none;
+  color: yellow;
+  padding: 5px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: 20px;
+  height: 40px;
+  width: 65%;
+}
+.btn3 {
+  transition-duration: 0.4s;
+}
+
+.btn3:hover {
+  background-color: #1F0001;
+  color: yellow;
+}
+.text-box1{
+	width: 100%;
+	color: maroon;
+	position: absolute;
+  	top: 250px;
+  	left: 350px;
+  	width: 400px;
+  	height: 100px;
+  	font-size: 20px;
+}
+
+
+/*----- join -----*/
+
+.join{
+	min-height: 100vh;
+	width:  100%;
+	background-image: url(../images/userpagebg2.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	text-align: left;
+}
+.text-box2{
+	width: 100%;
+	color: white;
+	position: absolute;
+  	top: 250px;
+  	left: 350px;
+  	width: 400px;
+  	height: 100px;
+  	font-size: 20px;
+}
+/*----- add -----*/
+
+.add{
+	min-height: 100vh;
+	width:  100%;
+	background-image: url(../images/userpagebg3.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	text-align: left;
+
+}
+.text-box3{
+	width: 100%;
+	color: maroon;
+	position: absolute;
+  	top: 250px;
+  	left: 350px;
+  	width: 400px;
+  	height: 100px;
+  	font-size: 20px;
+  }
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 10px;
+  border: 1px solid #888;
+  border-radius: 16px;
+  width: 20%;
+}
+.close {
+  color: maroon;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 100px;
+}
+
+.close:hover,
+.close:focus {
+  color: #1F0001;
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,0 +1,261 @@
+@font-face { font-family: Poppins Black; font-variant: black; src: url('PoppinsBlack-VxOe.otf'); }
+@font-face { font-family: Poppins Bold; font-weight: bold; src: url('PoppinsBold-GdJA.otf'); }
+@font-face { font-family: Poppins Extra Bold; font-variant: Extra Bold; src: url('PoppinsExtrabold-zDdL.otf'); }
+@font-face { font-family: Poppins Bold Italic; font-variant: bold italic; src: url('PoppinsBoldItalic-jgZy.otf'); }
+@font-face { font-family: Poppins Italic; font-variant: Italic; src: url('PoppinsBoldItalic-jgZy.otf'); }
+@font-face { font-family: Poppins Regular; src: url('PoppinsRegular-B2Bw.otf'); }
+@font-face { font-family: Poppins Thin; font-variant: thin; src: url('PoppinsThin-rO2B.otf'); }
+
+* {box-sizing: border-box;}
+body{
+	width: 97%;
+	margin: 1% auto auto auto;
+}
+.header{
+	background-color: #A9A9A9;
+	max-width: 100%;
+	min-height: 60px;
+}
+.logo{
+	float: left;
+	padding: 1px;
+	margin: 0 0 0 30px;
+}
+.home {
+	font-family: Poppins Bold, Arial;
+	float:  left;
+	padding:  20px;
+	margin: 0 0 0 65% ;
+}
+
+.bookmark {
+	font-family: Poppins Bold, Arial;
+	float:  left;
+	padding:  20px;
+	margin: 0 0 0 0;
+}
+
+.settings{
+	float: left;
+  	color: black;
+  	padding: 15px;
+  	margin: 0 0 0 0 ;
+}
+
+
+.logo, .home, .bookmark, .settings{
+	display: inline-block;
+}
+
+.home a, .bookmark a {
+	float: left;
+  	color: white;
+  	text-decoration: none;
+	transition:0.3s;
+}
+
+.home a:hover, .bookmark a:hover {
+	float: left;
+  	color: #FBDF02;
+  	text-decoration: none;
+	transition:0.3s;
+}
+
+.options{
+	background-color: #FEFBC1;
+	float: right;
+	border: 2px solid #7E0102;
+	font-family: Poppins Regular, Arial ;
+	font-size: 12px;
+	color: #7E0102;
+	border-radius: 22px;
+	width: 13%;
+	text-align: center;
+	text-decoration: none;
+}
+#options-wrap{
+	display: none;
+}
+.changepass{
+	border-top-left-radius: 23px;
+	border-top-right-radius: 23px;
+	width: 10px;
+	text-decoration: none;
+	color: #7E0102;
+	transition:0.3s;
+}
+.changepass:hover{
+	background-color:#F2E488;
+	text-decoration: none;
+	transition:0.3s;
+}
+
+.logout{
+	border-bottom-left-radius: 23px;
+	border-bottom-right-radius: 23px;
+	width: 10px;
+	text-decoration: none;
+	transition:0.3s;
+}
+.logout:hover{
+	background-color:#F2E488;
+	text-decoration: none;
+	transition:0.3s;
+}
+
+a{
+	color: #7E0102;
+	text-decoration: none;
+}
+
+
+.mainbody{
+	width: 90%;
+	margin: 20px auto;
+	margin-top:0px;
+	padding-bottom:20px;
+	border: 1px, solid black;
+	border-bottom-right-radius:25px;
+	border-bottom-left-radius:25px;
+}
+
+.profiles{
+	width: 100%;
+	border-radius: 25px;
+	min-height: auto;
+	background-color: #A9a9a9;
+	margin: 0 1.5% 0 0;
+}
+
+.container{
+	margin-top: 20px;
+	padding-bottom: 2em;
+	
+}
+
+.individuals{
+	display: inline-block;
+	float: left;
+	width: 310px;
+	border-radius: 30px;
+	height: 25% ;
+	background-color: white;
+	padding: 0 auto;
+	margin: 0px 3px 20px 17px;
+	color: #7E0102;
+	transition:0.3s;
+}
+
+.individuals:hover {
+	background-color: #7E0102;
+	color: #FBDF02;	
+	transition:0.3s;
+}
+
+.leftsideinfo{
+	display: block;
+	width: 75px;
+	margin: 0 0 0 5px;
+	float: left;
+}
+
+.picture{	
+	float: left;
+	margin: 10px 1% 0 1%;
+	border-radius: 100px;
+	overflow:hidden;
+}
+
+.basicinfo{
+	width: 200px;
+}
+
+.lname{
+	float: left;
+	margin: 15px 0 0 5px;
+	padding: 0;
+	font-family: Poppins Bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.fname{
+	float: left;
+	margin: 0 0 0 5px;
+	padding: 0;
+	font-family: Poppins Regular;
+	font-size: 12px;
+	text-transform: capitalize;
+}
+
+.course{
+	float: left;
+	margin: 5px 0 0 5px;
+	padding: 0;
+	font-family: Poppins Regular;
+	font-size: 8px;
+	text-transform: capitalize;
+	text-align: left;
+}
+
+.cpnum{
+	float: left;
+	margin: 0 0 0 5px;
+	padding: 0;
+	font-family: Poppins Regular;
+	font-size: 8px;
+	text-transform: capitalize;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bookmarkedsign{
+	margin: 0 50% 0 40%;
+	float: left;
+}
+.bookmarkedsign{
+	content: url('../images/bookmarked.png');
+	width: 20px;
+	margin: 0 50% 0 40%;
+	transition:0.3s;
+}
+.individuals:hover .bookmarkedsign{
+	content: url('../images/bookmarkedyellow.png');
+	width: 20px;
+	margin: 0 50% 0 40%;
+	float: left;
+	transition:0.3s;
+}
+
+.bookmarksign{
+	margin: 0 50% 0 40%;
+	float: left;
+}
+.bookmarksign{
+	content: url('../images/bookmark.png');
+	width: 20px;
+	margin: 0 50% 0 40%;
+	transition:0.3s;
+}
+.individuals:hover .bookmarksign{
+	content: url('../images/bookmarkyellow.png');
+	width: 20px;
+	margin: 0 50% 0 40%;
+	float: left;
+	transition:0.3s;
+}

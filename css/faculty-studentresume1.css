@@ -1,0 +1,317 @@
+@font-face { font-family: Poppins Black; font-variant: black; src: url('PoppinsBlack-VxOe.otf'); }
+@font-face { font-family: Poppins Bold; font-weight: bold; src: url('PoppinsBold-GdJA.otf'); }
+@font-face { font-family: Poppins Extra Bold; font-variant: Extra Bold; src: url('PoppinsExtrabold-zDdL.otf'); }
+@font-face { font-family: Poppins Bold Italic; font-variant: bold italic; src: url('PoppinsBoldItalic-jgZy.otf'); }
+@font-face { font-family: Poppins Italic; font-variant: Italic; src: url('PoppinsBoldItalic-jgZy.otf'); }
+@font-face { font-family: Poppins; src: url('PoppinsRegular-B2Bw.otf'); }
+@font-face { font-family: Poppins Thin; font-variant: thin; src: url('PoppinsThin-rO2B.otf'); }
+
+* {box-sizing: border-box;}
+.header {
+  overflow: hidden;
+  background-color: #A9A9A9;
+  max-width: 100%;
+  min-height: 60px;
+}
+
+.logo{
+	float: left;
+	padding: 1px;
+	margin: 0 0 0 30px;
+}
+.home {
+	font-size: 16px;
+	font-family: Poppins Bold, Arial;
+	float:  left;
+	padding:  20px;
+	margin: 0 0 0 65% ;
+}
+
+.certificates {
+	font-size: 16px;
+	font-family: Poppins Bold, Arial;
+	float:  left;
+	padding:  20px;
+	margin: 0 0 0 0;
+}
+
+.settings{
+	font-size: 15px;
+	float: left;
+  	color: black;
+  	padding: 15px;
+  	margin: 0 0 0 0 ;
+}
+
+.logo, .home, .certificates, .settings{
+	display: inline-block;
+}
+
+.home a, .certificates a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  transition:0.3s;
+}
+
+.home a:hover, .certificates a:hover {
+	float: left;
+  	color: #FBDF02;
+  	text-decoration: none;
+	transition:0.3s;
+}
+
+	.options{
+		background-color: #FEFBC1;
+		float: right;
+		border: 2px solid #7E0102;
+		font-family: Poppins Regular, Arial ;
+		font-size: 12px;
+		color: #7E0102;
+		border-radius: 22px;
+		width: 13%;
+		text-align: center;
+		text-decoration: none;
+	}
+	#options-wrap{
+		display: none;
+	}
+	.changepass{
+		border-top-left-radius: 23px;
+		border-top-right-radius: 23px;
+		width: 20px;
+		text-decoration: none;
+		color: #7E0102;
+		transition:0.3s;
+	}
+	.changepass:hover{
+		background-color:#F2E488;
+		text-decoration: none;
+		transition:0.3s;
+	}
+
+	.logout{
+		border-bottom-left-radius: 23px;
+		border-bottom-right-radius: 23px;
+		width: 20px;
+		text-decoration: none;
+		transition:0.3s;
+	}
+	.logout:hover{
+		background-color:#F2E488;
+		text-decoration: none;
+		transition:0.3s;
+	}
+
+	a{
+		color: #7E0102;
+		text-decoration: none;
+	}
+
+body { 
+  margin: 1% auto auto auto;
+  color: maroon;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 10px;
+  width: 97%;
+  background-color: #E8E8E8;
+}
+
+.back{
+	font-size: 14px;
+	align-items: center;
+	display: block;
+}
+
+.content{
+  background-color: white;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.container {
+  clear: both;
+  display: table;
+  width: 794px;
+  align-items: center;
+}
+.table-row {
+  display: table-row;
+  height: 900px;
+}
+	.table-cell {
+	  background: maroon;
+	  color: white;
+	  text-align: left;
+	  display: table-cell;
+	  padding: 5px;
+	  width:1%;
+	}
+		img {
+		  border-radius: 50%;
+		  position: relative;
+		  display: flex;
+		}
+		.info{
+		width: 180px;		
+		}
+		.about{
+		font-size: 13px;
+		width: 100px;
+		}
+		.p{
+		width: 170px;
+		bottom: 20px;
+		line-height: 12px;
+		}
+	
+	.table-cell2 {
+	  background: #383838;
+	  color: white;
+	  text-align: left;
+	  display: table-cell;
+	  padding: 12px;
+	  width:30%;
+	}
+		.box1{
+		  float: left;
+		  width: 150px;
+		  height: 140px;
+		  margin: 5px
+		  position: relative;
+		  margin-top:18px;
+		}
+			.pepito{
+			  font-size: 35px;
+			  width: 30px;
+			}
+			.venancio{
+			  font-size: 14px;
+			  width: 50px;
+			  position: relative;
+			  bottom: 11px;
+			}
+			.manaloto{
+			  font-size: 35px;
+			  width: 50px;
+			  position: relative;
+			  bottom: 28px;
+			}
+			.course{
+			  font-size: 12px;
+			  width: 150px;
+			  position: relative;
+			  bottom: 42px;
+			}
+		.box2{
+		  float: right;
+		  text-align: right;
+		  width: 150px;
+		  height: 140px;
+		  margin: 5px
+		  position: relative;
+		  margin-top:18px;
+		}
+		
+			table#con{
+			  padding: 8px;
+			  position: relative;
+			}
+					.work{
+					  font-size: 15px;
+					  margin-left: 1em;
+					  line-height: 16px;
+					  width: 150px;
+					}
+						.company{
+						  font-size: 12px;
+						  margin-left: 3em;
+						  line-height: 10px;
+						  width: 150px;
+						}
+						.ganap{
+						  font-size: 12px;
+						  line-height: 10px;
+						  width: 150px;
+						}
+						.detail1{
+						  font-size: 9px;
+						  margin-left: 4em;
+						  line-height: 8px;
+						  width: 150px;
+						  position: relative;
+						  bottom: 2px;
+						}
+						.detail2{
+						  font-size: 9px;
+						  margin-left: 1em;
+						  line-height: 8px;
+						  width: 95%;
+						  position: relative;
+						  bottom: 2px;
+						}
+
+					.techskills{
+					  font-size: 15px;
+					  margin-left: 1em;
+					  line-height: 16px;
+					  width: 150px;
+					}
+						.graphics{
+						  font-size: 12px;
+						  margin-left: 3em;
+						  line-height: 10px;
+						  width: 150px;
+						  position: relative;
+						}
+						.samplemsg{
+						  font-size: 10px;
+						  margin-left: 7em;
+						  margin-bottom: 1em;
+						  line-height: 11px;
+						  width: 150px;
+						}
+					.skills{
+					  font-size: 15px;
+					  line-height: 16px;
+					  margin-left: 3em;
+					  width: 150px;
+					}
+						.fastlearner{
+						  margin-left: 6em;	
+						  width: 150px;	
+						  font-size: 11px;
+						  line-height: 11px;
+						  vertical-align: text-top;
+						}
+						
+						td#top{
+							vertical-align: text-top;
+						}
+						
+					.educ{
+					 font-size: 15px;
+					 margin-left: 1em;
+					 line-height: 16px;
+					 position: relative;
+					 bottom: 3px;
+					 width: 150px;
+					}
+						.details3{
+							  font-size: 12px;
+							  margin-left: 3em;
+							  line-height: 10px;
+							  width: 250px;
+							  position: relative;
+							  bottom: 4px;
+						}
+						.details4{
+							  font-size: 9px;
+							  margin-left: 4em;
+							  line-height: 8px;
+							  width: 250px;
+							  position: relative;
+							  bottom: 4px;
+						}

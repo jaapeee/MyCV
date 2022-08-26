@@ -1,0 +1,406 @@
+body {
+font-family: Poppins;
+background-color: #E8E8E8;
+}
+.block1{
+	width:67%;
+	display:inline-block;
+	}
+	.block2{
+	margin-top:50px;
+	width:32.8%;
+	display:inline-block;
+	position:absolute;
+	}
+.container{
+background-color: white;
+margin: 20px;
+padding-bottom:50px;
+border-bottom-left-radius:50px;
+border-bottom-right-radius:50px;
+}
+.headernav {
+  overflow: hidden;
+  background-color: #A9A9A9;
+  max-width: 100%;
+  min-height: 60px;
+}
+.logo{
+	float: left;
+	padding: 1px;
+	margin: 0 0 0 30px;
+}
+.home {
+	font-size: 16px;
+	font-family: Poppins Bold, Arial;
+	float:  left;
+	padding:  20px;
+	margin: 0 0 0 65% ;
+}
+
+.certificates {
+	font-size: 16px;
+	font-family: Poppins Bold, Arial;
+	float:  left;
+	padding:  20px;
+	margin: 0 0 0 0;
+}
+.settings{
+	font-size: 15px;
+	float: left;
+  	color: black;
+  	padding: 15px;
+  	margin: 0 0 0 0 ;
+	border-radius: 50%;
+}
+.settings input{
+	border-radius: 50%;
+	position: relative;
+	display: flex;
+}
+.logo, .home, .certificates, .settings{
+	display: inline-block;
+}
+.home a, .certificates a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  transition:0.3s;
+}
+.home a:hover, .certificates a:hover {
+	float: left;
+  	color: #FBDF02;
+  	text-decoration: none;
+	transition:0.3s;
+}
+	.options{
+		background-color: #FEFBC1;
+		border: 2px solid #7E0102;
+		font-family: Poppins Regular, Arial ;
+		font-size: 12px;
+		color: #7E0102;
+		border-radius: 22px;
+		width: 13%;
+		text-align: center;
+		text-decoration: none;
+		position:absolute;
+		right:0px;
+	}
+	#options-wrap{
+		display:none;
+	}
+	.changepass{
+		border-top-left-radius: 23px;
+		border-top-right-radius: 23px;
+		width: 20px;
+		text-decoration: none;
+		color: #7E0102;
+	}
+	.changepass:hover{
+		background-color:#F2E488;
+		text-decoration: none;
+	}
+
+	.logout{
+		border-bottom-left-radius: 23px;
+		border-bottom-right-radius: 23px;
+		width: 20px;
+		text-decoration: none;
+	}
+	.logout:hover{
+		background-color:#F2E488;
+		text-decoration: none;
+	}
+
+.changepass a, .logout a {
+  color: #7E0102;
+  text-decoration: none;
+}
+.PDF{
+display:inline-block;
+height: 100px;
+width: 100px;
+border-radius:35px;
+background-color:gray;
+}
+
+.PDF img{
+height: 50px;
+width: 50px;
+padding:5px;
+padding-top:15px;
+}
+.rectangle {
+	width: 79.5%;
+    height: 230px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+	display:inline-block;
+    color: maroon;
+    right: 110px;
+    top: 120px;
+    border-radius: 35px;
+}
+.rectangle p {
+padding-left: 30px;
+color:maroon;
+font-size: 28px;
+}
+input[type=file]{
+Color:maroon;
+}
+.IMG{
+display:inline-block;
+height: 100px;
+width: 100px;
+border-radius:35px;
+background-color:gray;
+}
+.IMG img{
+height: 50px;
+width: 50px;
+padding:5px;
+padding-top:15px;
+}
+.pdfdiv{
+background-color:lightgray;
+height:175px;
+width: 79.5%;
+position:absolute;
+top: 240px;
+display:none;
+border:1px solid;
+border-color: maroon;
+border-radius: 50px;
+}
+.box:hover .certdelete{
+	height:40px;
+	transition:0.3s;
+	}
+	.certdelete{
+	overflow:hidden;
+	background-color:transparent;
+	height:0px;
+	display:inline-block;
+	position:absolute;
+	transition:0.3s;
+	}
+	.certdeleteicon{
+	content: url('../images/trashcanblack.png');
+	float:right;
+	height:40px;
+	}
+	.certdeleteicon:hover{
+	content: url('../images/trashcanyellow.png');
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contents {
+    width: 85%;
+    border: 1px solid #7E0102;
+    padding: 1px;
+	padding-bottom:50px;
+    border-radius: 25px;
+    background-color: #7E0102;
+	margin-left:100px;
+	margin-top:40px;
+}
+
+.imgcert {
+padding-left:20px;
+color:white;
+font-size: 28px;
+}
+
+.box {
+	height:520px;
+    width: 83%;
+    background-color: #C08080;
+    text-align: center;
+	margin-top:10px;
+    margin-left: 90px;
+	display:inline-block;
+	overflow:hidden;
+}
+
+
+
+.header{
+width: 79.5%;
+height: 50px;
+color: white;
+position: absolute;
+background-color: maroon;
+border-top-left-radius: 35px;
+border-top-right-radius: 35px;
+}
+.header p{
+padding-left: 20px;
+color:white;
+font-size: 20px;
+
+}
+.rectangle1 a {
+padding-left: 35px;
+color:maroon;
+font-size: 28px;
+text-decoration:none;
+
+}
+.rectangle1 a:hover {
+	color: yellow;
+}
+.division{
+background-color:#FFFFE0;
+height: 75px;
+width: 280px;
+position:absolute;
+top: 200px;
+right: 40px;
+display:none;
+border:1px solid;
+border-color: maroon;
+border-radius: 50px;
+z-index:100;
+}
+
+.btn button{
+color:maroon;
+position:absolute;
+top:67px;
+right:140px;
+font-size:15px;
+}
+.btn1 button{
+background-color:maroon;
+color:yellow;
+position:absolute;
+top:120px;
+right:225px;
+font-size:15px;
+border-radius: 50px;
+border-color:maroon;
+}
+.imgdiv{
+text-align:center;
+background-color:lightgray;
+height:175px;
+width: 79.5%;
+position:absolute;
+top: 240px;
+display:none;
+border:1px solid;
+border-color: maroon;
+border-radius: 50px;
+z-index:1;
+}
+.rectangle1 {
+	width: 79.5%;
+	padding-bottom:50px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    right: 110px;
+    top: 360px;
+    border-radius: 35px;
+}
+.pdfcerttr{
+	color:maroon;
+	font-size:15px;
+	font-style:italic;
+	text-decoration:none;
+	transition:0.3s;
+	}
+	.pdfcerttr:hover{
+	color:yellow;
+	transition:0.3s;
+	background-color:maroon;
+	}
+	.pdfcerttr:hover a{
+	color:yellow;
+	transition:0.3s;
+	}
+	.pdfcerttd{
+	content: url('../images/trashcanred.png');
+	height:25px;
+	}
+	.pdfcerttr:hover .pdfcerttd{
+	content: url('../images/trashcanyellow.png');
+	}
+	
+	
+	
+	
+.custom-file-upload{
+	}
+	.fileuploadbody{
+	background-color:white;
+	width:60%;
+	height:25px;
+	font-size:15px;
+	font-family:poppins;
+	border-radius:25px;
+	border: 2px solid maroon;
+	padding:5px;
+	padding-left:10px;
+	display:inline-block;
+	overflow:hidden;
+	transition:0.3s;
+	}.fileuploadbody:hover{
+	border: 2px solid #360906;
+	background-color:#fcaeae;
+	transition:0.3s;}
+	
+	.fublock1{
+	background-color:maroon;
+	display:inline-block;
+	width:25%;
+	height:20px;
+	overflow:hidden;
+	border-radius:25px;
+	transition:0.3s;
+	}.fileuploadbody:hover .fublock1{
+	background-color:#360906;
+	transition:0.3s;
+	}
+	
+	.fublock2{
+	display:inline-block;
+	position:relative;
+	width:70%;
+	left:-5px;
+	overflow:hidden;
+	}
+	.fublock2 input[type="file"]{
+	font-size:12px;
+	font-family:poppins;
+	position:relative;
+	left:-80px;
+	color:maroon;
+	transition:0.3s;
+	}.fileuploadbody:hover .fublock2 input[type="file"]{
+	color:#360906;
+	transition:0.3s;
+	}
+	
+	.fublock1 img{
+	padding-top:2px;
+	content: url('../images/uploadinputyellow.png');
+	height:15px;
+	transition:0.3s;
+	}.fileuploadbody:hover .fublock1 img{
+	content: url('../images/uploadinputwhite.png');
+	transition:0.3s;
+	}
